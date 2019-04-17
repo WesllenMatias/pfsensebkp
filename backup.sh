@@ -1,5 +1,12 @@
 #!/bin/sh
 
+# backup.sh - Faz a copia de arquivos a serem backupeados e envia msg no
+# telegram
+#
+# Site:       https://wesllenmatias.com.br
+# Autor:      Wesllen Matias
+# Manutenção: Wesllen Matias
+
 
 [ ! -x $(which ssh) ] && pkg install ssh -y
 [ ! -x $(which ssh) ] && pkg install curl -y
